@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="search-div">
+            <img src="images/logo.png" alt="logo" id="logo">
+            <form action="search" method="post" id="search-bar">
+                <img src="images/magnifying-glass.png" id="magnifying-glass" alt="search-glass"/>
+                <label for="search"></label>
+                <input type="text" name="search" id="search" placeholder="Search ( ⌘ + k )">
+            </form>
+            <ul id="nav-list">
+                <li>Products</li>
+                <li>Categories</li>
+                <li>Community</li>
+                <li>Marketplace</li>
+                <li>About</li>
+            </ul>
+        </div>
+        <div id="nav-buttons"> 
+            <a href=" ">How to post?</a>
+            <button id="sign-in">Sign in</button>
+            <button id="sign-up">Sign up</button>
+        </div>
+    </nav> 
+    <section id="section-one">
+        <div id="one-btns">
+            <div class="one-button">
+                <img src="images/today.png">
+                <button>Today</button>
+            </div>
+            <div class="one-button" id="activity-btn">
+                <img src="images/activity.png">
+                <button>Activity</button>
+            </div>
+        </div>
+        <div id="topics">
+            <span id="title-list">Trending topics:</span>
+            <ul id="topics-list">
+                <li>Artificial Intelligence</li>
+                <li>Productivity</li>
+                <li>Marketing</li>
+                <li>Developer Tools</li>
+                <li>SaaS</li>
+            </ul>
+        </div>
+    </section>
+    <section id="section-two">
+        <div id="left-div">
+            <div id="welcome">
+                <h2>Welcome to Product Hunt! 👋</h2>
+                <p>The place to launch and discover new tech products. <a href=" ">Take a tour</a>.</p>
+            </div>
+            <div id="top-products-title">
+                <div>
+                    <h2>Top Products Launching Today</h2>
+                </div>
+                <div id="featured">
+                    <span>Featured</span>
+                    <img src="images/arrow-down.png">
+                </div>
+            </div>
+            <ul id="products-list">
+                <li>
+                    <img src="images/bear.png">
+                    <p>Snooz - Send personalized Out-of-Office messages</p>
+                    <img class = "download"src="images/downloads.png">
+                </li>
+
+                <li>
+                    <img src="images/camera.png">
+                    <p>Captions for photos: Captioned - Create post captions with AI</p>
+                    <img class = "download" src="images/downloads.png">
+                </li>
+
+                <li>
+                    <img src="images/grow-easy.png">
+                    <p> GrowEasy - Generate AI powered all in one lead generation app</p>
+                    <img class = "download" src="images/downloads.png">
+                </li>
+            </ul>
+        </div>
+        <div id="right-div">
+            <h4>TOP REVIEWED PRODUCTS</h4>
+            <ul>
+                <li>
+                    <p>Wondershare Virbo</p>
+                    <img src="images/virbo.png">
+                </li>
+
+                <li>
+                    <p>Testmarket Analytics INC</p>
+                    <img src="images/market.png">
+                </li>
+
+                <li>
+                    <p>Magic Square</p>
+                    <img src="images/magic-square.png">
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
